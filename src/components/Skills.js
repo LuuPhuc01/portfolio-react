@@ -1,16 +1,5 @@
 import React from "react";
 
-const skills = [
-  {
-    company: "DEK Technologies",
-    experience: "",
-  },
-  {
-    company: "",
-    experience: "",
-  },
-];
-
 export default function Skills() {
   return (
     <div className="flex flex-col border-b-2 py-10">

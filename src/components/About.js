@@ -6,7 +6,7 @@ export default function About() {
       <div className="my-5  mt-10 text-center  text-3xl font-bold text-primary md:text-7xl ">
         About Me
       </div>
-      <div className="my-10 text-justify text-xl font-medium text-white md:mx-72 md:my-20 md:text-3xl">
+      <div className="my-10 text-justify text-xl font-medium text-white md:mx-20  md:my-20 md:text-3xl">
         <div className="txt-about">
           - I’m an international student from Vietnam who started programming
           back in 2020 and turned it into a hobby
