@@ -2,25 +2,25 @@ import React from "react";
 import avatar from "../images/avatar.jpg";
 export default function Banner() {
   return (
-    <div className="h-auto">
-      <div className="flex items-center justify-center relative mx-10">
-        <div className="w-auto items-center text-center mx-5 mt-40">
-          <div className="md:text-5xl  my-4 text-3xl font-poppins font-semibold text-white ">
+    <div className="h-auto border-b-2">
+      <div className="relative mx-10 flex items-center justify-center md:my-10">
+        <div className="mx-5 mt-40 w-auto items-center text-center">
+          <div className="my-4 font-poppins  text-2xl font-semibold text-white md:mt-14 md:text-5xl ">
             Xin Chao,
           </div>
-          <div className="md:text-7xl  my-4 text-5xl font-poppins font-semibold text-primary ">
-            I'm Phuc Luu
+          <div className="my-4  font-poppins text-4xl font-semibold text-primary md:text-7xl ">
+            <span className="text-white">I'm</span> Phuc Luu
           </div>
-          <div className="md:text-3xl  my-4 text-2xl font-poppins font-semibold text-white ">
+          <div className="my-4  font-poppins text-xl font-semibold text-white md:text-3xl ">
             Software Engineer
           </div>
-          <button className="font-poppins font-semibold bg-primary border-l-blue-800 rounded-lg p-3 mb-10">
+          <button className="mb-10 rounded-lg border-l-blue-800 bg-primary p-3 font-poppins font-semibold">
             My resume
           </button>
         </div>
         <img
           src={avatar}
-          className="p-5 absolute md:right-40 top-10 right-10 md:w-1/5 w-1/3 rounded-full "
+          className="right-50 absolute top-0 w-1/2 rounded-full p-1 md:right-44 md:top-10 md:w-1/5 "
           alt="avatar"
         />
       </div>

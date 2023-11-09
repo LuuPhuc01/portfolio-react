@@ -2,18 +2,18 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className=" bg-blue-1000 min-h-min rounded-lg mx-5 mb-5">
+    <div className="mb-5 rounded-lg bg-blue-1000">
       <div className="flex items-center justify-center ">
-        <button className="md:text-2xl mx-auto my-3 px-3 py-2 font-sans:Roboto font-bold text- text-zinc-50">
+        <button className="text- mx-auto my-3 px-3 py-2 font-bold text-zinc-50 md:text-2xl">
           About
         </button>
-        <button className="md:text-2xl mx-auto my-3 px-3 py-2 font-sans:Roboto font-bold text- text-zinc-50">
+        <button className="text- mx-auto my-3 px-3 py-2 font-bold text-zinc-50 md:text-2xl">
           Experiences
         </button>
-        <button className="md:text-2xl mx-auto my-3 px-3 py-2 font-sans:Roboto font-bold text- text-zinc-50">
+        <button className="text- mx-auto my-3 px-3 py-2 font-bold text-zinc-50 md:text-2xl">
           Projects
         </button>
-        <button className="md:text-2xl mx-auto my-3 px-3 py-2 font-sans:Roboto font-bold text- text-zinc-50">
+        <button className="text- mx-auto my-3 px-3 py-2 font-bold text-zinc-50 md:text-2xl">
           Contact
         </button>
       </div>

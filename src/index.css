@@ -17,3 +17,12 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .txt-about {
+    @apply m-5 font-medium text-white;
+  }
+  .icon-cnt {
+    @apply md:mx-5 mx-3 pb-5 md:text-5xl text-3xl  text-white;
+  }
+}
